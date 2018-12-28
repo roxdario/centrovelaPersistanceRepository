@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: com.ross.dario.persistence.repository.UserRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.13 s <<< FAILURE! - in com.ross.dario.persistence.repository.UserRepositoryTest
+testSelectAllFilled(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.017 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testSelectAllFilled(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.017 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testDeleteAll(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testDeleteAll(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.016 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testDeleteById(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testDeleteById(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testInsert(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testInsert(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testSelectAllEmpty(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testSelectAllEmpty(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testUpdate(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testUpdate(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.025 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testSelectById(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+
+testSelectById(com.ross.dario.persistence.repository.UserRepositoryTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.UserRepositoryTest.initializeUserTests(UserRepositoryTest.java:53)
+

@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.ross.dario.persistence.repository.RoleRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 4.509 s <<< FAILURE! - in com.ross.dario.persistence.repository.RoleRepositoryTest
+testSelectAllFilled(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testDeleteAll(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testDeleteById(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testInsert(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testSelectAllEmpty(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testUpdate(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
+testSelectById(com.ross.dario.persistence.repository.RoleRepositoryTest)  Time elapsed: 0 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ross.dario.persistence.repository.RoleRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user0_.dateofbirth' in 'field list'
+	at com.ross.dario.persistence.repository.RoleRepositoryTest.initializeRoleTests(RoleRepositoryTest.java:54)
+
